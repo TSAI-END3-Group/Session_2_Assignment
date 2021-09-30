@@ -18,6 +18,7 @@ For the various Learning Rates we see the error goes down differently. At the lo
 Below are the error graphs obtained at different LRs
 
 ![alt text](images/LR_0.1.png "Title")
+
 The error reduces at a very slow pace
 
 ![alt text](images/LR_0.2.png "Title")
@@ -33,6 +34,7 @@ In the initial epochs the error is reducing relatively fast and hence the curve
 The error drop is more in the initial epochs and then stablizes 
 
 ![alt text](images/LR_1.0.png "Title")
+
 The error drop is quiet fast and then it stablizes
 
 ![alt text](images/LR_2.0.png "Title")
