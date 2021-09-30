@@ -1,6 +1,10 @@
 ## Problem Statement
 
-## The project has been done in a group of 4
+## Contributors
+* Rohit Agarwal
+* Vivek Kumar
+* Kushal Gandhi
+* Ammishaddai U
 
 ## Results 
 For the various Learning Rates we see the error goes down differently. At the lowere LR the decrease in error is very slow and hence the learning is also slow. While for LR>=1 the error seem to go down very fast and that shows that the learning is fast at higher LR
