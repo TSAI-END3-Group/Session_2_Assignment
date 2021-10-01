@@ -7,7 +7,7 @@ Some of the details of what we have done:
 ### Setup Steps
 1. Initialize the weights of the parameters. In our case it is as shown in the above diagram
 
-2. Make a input data set. The inout data will help in finding out how the network is predicting. With more and more input data the network should start learning (finding the optimal weights). In out case we have fixed the input data to 0.05 and 0.1
+2. Make a input data set. The inout data will help in finding out how the network is predicting. With more and more input data the network should start learning (finding the optimal weights). In our case we have fixed the input data to 0.05 and 0.1
 
 3. Make a ground truth data . This is the data against which the output of the network is tested. In our case the ground truth value is 0.01 & 0.99 for the input of 0.05 & 0.1. Since the inputs are fixed so are the ground truth values
 
