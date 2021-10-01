@@ -1,13 +1,12 @@
 ## Problem Statement
 This is the assignment based on the Session 2.
 
-1. Refer to the [Link](https://github.com/TSAI-END3-Group/Session_2_Assignment/Assignment_2_NN_Propogation.xlsx) for the excel sheet showing backprop on the following network
-![alt text](images/network.png "Title")
+1. Refer to the [Link](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/Assignment_2_NN_Propogation.xlsx) for the excel sheet showing backprop calculations. 
 
-2. Below is the screenshot of the Excel that has been created.
+Below is the screenshot of the Excel that has been created.
  ![alt text](images/Screenshot_Assignment_2.png "Title")
 
-3. Refer to the [Link](https://github.com/TSAI-END3-Group/Session_1_Assignment/blob/main/questions.ipynb) where we have explained the various formula derivations and how the learning happens
+3. Refer to the [Link](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/FormulaDerivations.ipynb) where we have explained the various formula derivations and how the learning happens
 
 4. Below are the various error graphs that we got after using the various Learning rates as asked for [0.1, 0.2, 0.5, 0.8, 1.0, 2.0] 
 
