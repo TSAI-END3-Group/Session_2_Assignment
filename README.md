@@ -74,9 +74,9 @@ Some observations:
 
 ## Repository Files
 
-1. FormulaDerivations.ipynb : All the mathematical derivations
+1. [FormulaDerivations.ipynb](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/FormulaDerivations.ipynb) : All the mathematical derivations
 
-2. Assignment_2_NN_Propogation.xlsx : The Excel Output file
+2. [Assignment_2_NN_Propogation.xlsx](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/Assignment_2_NN_Propogation.xlsx) : The Excel Output file
 
 
 ## Contributors
