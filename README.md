@@ -13,11 +13,11 @@ Some of the details of what we have done:
 
   ### Training Steps
  The training will involve 3 steps. 
-  * First we need to find out what is the current behavior of the network by passing a input set. This is the **feed forward step**. In the feedforward step , the values of the neurons is changed. The equations that determine the calculations is described in the document [Link](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/FormulaDerivations.ipynb) .
+  * First we need to find out what is the current behavior of the network by passing a input set. This is the **feed forward step**. In the feedforward step , the values of the neurons is changed. The equations that determine the calculations is described in the document [FormulaDerivations.ipynb](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/FormulaDerivations.ipynb) .
 
   * Compare the output against the ground truth (what was the expected output). this is what is the Loss or the Error 
 
-  * Calculate the change in the parameters w.r.t. the error or in other words,  adjust the weights of the parameters such that the overall error is reduced. The change is calculated using **backpropogation**. We have discussed the various equations that will be used in the document [Link](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/FormulaDerivations.ipynb)
+  * Calculate the change in the parameters w.r.t. the error or in other words,  adjust the weights of the parameters such that the overall error is reduced. The change is calculated using **backpropogation**. We have discussed the various equations that will be used in the document [FormulaDerivations.ipynb](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/FormulaDerivations.ipynb)
 
   __Note: In the FeedForward step the value of the neurons is changed while in the backprop step the value of the parameters is changed__
 
@@ -39,7 +39,7 @@ Some of the details of what we have done:
 
 ## Outputs
 
-1. Refer to the [Link](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/Assignment_2_NN_Propogation.xlsx) for the excel sheet showing backprop calculations. 
+1. Refer to the [Assignment_2_NN_Propogation.xlsx](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/Assignment_2_NN_Propogation.xlsx) for the excel sheet showing backprop calculations. 
 
 Below is the screenshot of the Excel that has been created.
  ![alt text](images/Screenshot_Assignment_2.png "Title")
@@ -49,7 +49,7 @@ Below is the screenshot of the Excel that has been created.
 
 
 
-3. Refer to the [Link](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/FormulaDerivations.ipynb) where we have explained the various formula derivations and how the learning happens
+3. Refer to the [FormulaDerivations.ipynb](https://github.com/TSAI-END3-Group/Session_2_Assignment/blob/master/FormulaDerivations.ipynb) where we have explained the various formula derivations and how the learning happens
 
 4. Below are the various error graphs that we got after using the various Learning rates as asked for [0.1, 0.2, 0.5, 0.8, 1.0, 2.0] 
 
@@ -70,6 +70,13 @@ Some observations:
 1. The graph clearly shows that the learning was very slow when the LR was 0.1,0.2. The error was reducing very slowly with each epoch
 
 2. The slope of the curve became steep once the LR >=1.0. Suggesting that the model is learning very fast. Infact the error became <0.05 within 20 epochs when the LR became 2 and after that the learnig was very slow
+
+
+## Repository Files
+
+1. FormulaDerivations.ipynb : All the mathematical derivations
+
+2. Assignment_2_NN_Propogation.xlsx : The Excel Output file
 
 
 ## Contributors
